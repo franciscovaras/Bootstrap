@@ -1,0 +1,68 @@
+.redes{
+    padding-top:10%;
+}
+
+.texto{
+    color: black;
+}
+.contenedor{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.imagen1{
+    padding-top:5%; 
+    height: 250px;
+}
+.imagen2{
+    padding-top:6%; 
+    height: 300px;
+    width: 100%;
+}
+.icono1{
+    color:black;
+}
+.icono2 {
+    font-size: 50px;
+}
+.icono3 {
+    font-size: 30px;
+}
+.icono4 {
+    font-size: 19px;
+    color:black;
+    
+}
+.enlace1{
+    color:maroon;
+}
+.enlace2{
+    background: rgb(212, 208, 208);
+    
+}
+a:active{
+    color: black !important;
+    background: white;
+}
+.enlace1:hover{
+    color: black !important;
+    background: white;
+}
+.buscar{
+    padding: 5%;
+}
+.panel{
+    width:90%;
+}
+
+@media screen and (max-width: 600px) {
+    .icono2 {
+        font-size: 40px;
+    }
+    .icono4{
+        font-size: 10px;
+        width: 80% !important;
+    }
+    .contenedor2{
+        width:100%
+    }
+} 
